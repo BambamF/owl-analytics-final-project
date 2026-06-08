@@ -9,7 +9,7 @@ When you arrive at the Data Quality team, Dara looks slightly embarrassed.
 First, run the provided script:
 
 ```bash
-python mess_my_data.py --input data/clean/clean_market_data.csv --output data/messy/messy_market_data.csv
+python scripts/mess_my_data.py --input data/clean/clean_market_data.csv --output data/messy/messy_market_data.csv
 ```
 
 This creates:

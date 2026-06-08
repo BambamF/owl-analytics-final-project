@@ -23,6 +23,7 @@ data/clean/
 data/messy/
 results/
 reports/
+scripts/
 ```
 
 The datasets, logs, notebooks, and result files should be created by your own code during the project. Do not commit a `.venv/` folder.

@@ -47,10 +47,11 @@ A simple suggested structure is:
 ```txt
 final_project/
 ├── README.md
-├── mess_my_data.py
 ├── part1_build_dataset.py
 ├── part2_clean_with_pandas.ipynb
 ├── part3_spark_analytics.ipynb
+├── scripts/
+│   └── mess_my_data.py
 ├── reports/
 │   ├── report_to_stelios.md
 │   └── reflection.md
@@ -111,7 +112,7 @@ Use clear file names so the reviewer can easily find the report and reflection.
 Before submitting, check that your private GitHub repository contains:
 
 - `README.md` with repository link, report link, and reflection link
-- `mess_my_data.py`
+- `scripts/mess_my_data.py`
 - `part1_build_dataset.py`
 - Team 2 pandas cleaning notebook or script
 - downloaded Team 3 Spark `.ipynb` notebook from Colab
