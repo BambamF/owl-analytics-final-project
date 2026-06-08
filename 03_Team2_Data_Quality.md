@@ -6,6 +6,10 @@ When you arrive at the Data Quality team, Dara has decided to make your first we
 
 > "I tested the dataset yesterday, but I accidentally introduced some data problems. Some values are missing, some numeric columns have text, a few timestamps are invalid, and some symbols have inconsistent formatting. This happens more often than we like to admit. Can you clean it properly?"
 
+## Handoff Note
+
+Team 2 receives the clean dataset from Team 1 and prepares the cleaned dataset for Team 3. The pandas sample is only a quick quality check; the final full-dataset analytics will be completed in Spark.
+
 First, run the provided script:
 
 ```bash
@@ -246,7 +250,3 @@ This sample check is worth **3 marks**.
    Pandas was useful for inspecting and cleaning the data.
    The 50-row sample is not enough for final analytics because it does not represent the full cleaned dataset.
    ```
-
-## Handoff Note
-
-Team 2 prepares the cleaned dataset for Team 3. The pandas sample is only a quick quality check; the final full-dataset analytics will be completed in Spark.

@@ -6,6 +6,10 @@ Zehra from the Analytics team receives your cleaned dataset.
 
 > "Thanks. Now we need to run the full analysis in Spark. The client does not want a sample; they want a full summary across all symbols."
 
+## Handoff Note
+
+Team 2 uses pandas to clean the messy dataset and run a small 50-record check. Team 3 uses Spark to analyze the full cleaned dataset and produce the final ranked market summary for Zehra.
+
 Use Spark to analyze:
 
 ```txt
@@ -174,7 +178,3 @@ Example of the difference:
 | Candle direction counts | quick sample check | full count by symbol in the ranked summary |
 | Most active symbol | optional sample result | required activity ranking using total `trade_count` and `quote_volume` |
 | Busiest trading hour | not required | required time-based Spark analysis |
-
-## Handoff Note
-
-Team 2 uses pandas to clean the messy dataset and run a small 50-record check. Team 3 uses Spark to analyze the full cleaned dataset and produce the final ranked market summary for Zehra.
