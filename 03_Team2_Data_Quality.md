@@ -2,7 +2,7 @@
 
 Team lead: **Dara**
 
-When you arrive at the Data Quality team, Dara looks slightly embarrassed.
+When you arrive at the Data Quality team, Dara has decided to make your first week a little more challenging.
 
 > "I tested the dataset yesterday, but I accidentally introduced some data problems. Some values are missing, some numeric columns have text, a few timestamps are invalid, and some symbols have inconsistent formatting. This happens more often than we like to admit. Can you clean it properly?"
 
@@ -148,7 +148,7 @@ Team 2 is mainly about data quality. Your job is to take Dara's messy dataset, f
    ```txt
    Created columns:
    price_range, price_change, percent_change, candle_direction
-
+   
    Example row:
    open=100.00 close=105.00 high=110.00 low=95.00
    price_range=15.00 price_change=5.00 percent_change=5.00 candle_direction=up
