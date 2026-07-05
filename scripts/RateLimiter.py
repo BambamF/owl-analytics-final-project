@@ -26,6 +26,6 @@ class RateLimiter:
             else:
                 sleep_time = 0
 
-            if sleep_time > 0:
-                time.sleep(sleep_time)
-            self.calls.append(time.monotonic())
+        if sleep_time > 0:
+            time.sleep(sleep_time)
+        self.calls.append(time.monotonic())
