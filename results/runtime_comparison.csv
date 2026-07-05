@@ -13,3 +13,12 @@ multithreading,2.4685056840025936,1000,downloaded several symbols at the same ti
 serial,4.661715213002026,1000,downloaded the ten symbols one after another
 multithreading,2.78166305600098,1000,downloaded several symbols at the same time
 serial,3.838804652001272,1000,downloaded the ten symbols one after another
+multithreading,2.90018880000207,1000,downloaded several symbols at the same time
+multithreading,0.6921750080000493,1000,downloaded several symbols at the same time
+serial,4.19131200999982,1000,downloaded the ten symbols one after another
+multithreading,2.827725987001031,1000,downloaded several symbols at the same time
+multithreading,0.8251567780025653,1000,downloaded several symbols at the same time
+serial,4.183932066000125,1000,downloaded the ten symbols one after another
+multithreading,3.5401646950012946,1000,downloaded several symbols at the same time
+multithreading,1.302124288999039,1000,downloaded several symbols at the same time
+serial,8.744641956000123,1000,downloaded the ten symbols one after another

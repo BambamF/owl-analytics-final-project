@@ -9,6 +9,7 @@ import logging
 from typing import Dict, Any
 from RateLimiter import RateLimiter
 import time
+import pandas as pd
 
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -103,7 +104,7 @@ def download_row(url: str, symbol: str, interval: str, params: Dict[str, str], c
         logging.error(f"Download Failed - Url: {url} | Symbol: {params['symbol']} | Timestamp: {datetime.now()} | Exception: {e}")
         raise(e)
     
-def multithreaded_download(symbols: list[str], params: dict[str, str], url: str, csv_path: str | Path, method: str, note: str):
+def multithreaded_download(symbols: list[str], params: Dict[str, str], url: str, csv_path: str | Path, method: str, note: str):
     file_exists = os.path.isfile(runtime_comp_path)
     response_futures: list = []
 
@@ -131,7 +132,7 @@ def multithreaded_download(symbols: list[str], params: dict[str, str], url: str,
 
     comparison_dict = {
         "method": method,
-        "seconds": str(running_time),
+        "seconds": running_time,
         "records": limit,
         "note": note
     }
@@ -144,7 +145,7 @@ def multithreaded_download(symbols: list[str], params: dict[str, str], url: str,
 
     return running_time
 
-def serial_download(symbols: list[str], params: dict[str, str], url: str, csv_path: str | Path, method: str, note: str):
+def serial_download(symbols: list[str], params: Dict[str, str], url: str, csv_path: str | Path, method: str, note: str):
 
     start = time.perf_counter()
     file_exists = os.path.isfile(runtime_comp_path)
@@ -163,7 +164,7 @@ def serial_download(symbols: list[str], params: dict[str, str], url: str, csv_pa
 
     comparison_dict = {
         "method": method,
-        "seconds": str(running_time),
+        "seconds": running_time,
         "records": limit, 
         "note": note
     }
@@ -225,6 +226,8 @@ def main():
 
     multi_note = "downloaded several symbols at the same time"
     serial_note = "downloaded the ten symbols one after another"
+
+    multi_time = multithreaded_download(symbols, params, url, csv_path, "multithreading", multi_note)
 
     multi_time = multithreaded_download(symbols, params, url, csv_parallel, "multithreading", multi_note)
 
