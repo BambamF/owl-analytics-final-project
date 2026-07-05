@@ -1,0 +1,15 @@
+method,seconds,records,note
+multithreading,2.7788022690001526,1000,downloaded several symbols at the same time
+serial,3.924976014999629,1000,downloaded the ten symbols one after another
+multithreading,2.7644099410008494,1000,downloaded several symbols at the same time
+serial,3.8077017849991535,1000,downloaded the ten symbols one after another
+multithreading,2.028318878999926,1000,downloaded several symbols at the same time
+serial,5.103374907999751,1000,downloaded the ten symbols one after another
+multithreading,2.795778296997014,1000,downloaded several symbols at the same time
+serial,4.247226702002081,1000,downloaded the ten symbols one after another
+multithreading,2.759089106999454,1000,downloaded several symbols at the same time
+serial,3.9412883460026933,1000,downloaded the ten symbols one after another
+multithreading,2.4685056840025936,1000,downloaded several symbols at the same time
+serial,4.661715213002026,1000,downloaded the ten symbols one after another
+multithreading,2.78166305600098,1000,downloaded several symbols at the same time
+serial,3.838804652001272,1000,downloaded the ten symbols one after another

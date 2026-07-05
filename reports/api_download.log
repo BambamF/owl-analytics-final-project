@@ -1,0 +1,240 @@
+2026-07-05 15:12:28,518 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:12:28,518 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:12:28,519 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:12:28,520 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:12:28,520 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:12:28,527 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:12:28,521 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:12:28,524 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:12:28,522 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:12:28,544 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:12:30,192 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:12:30,192 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:30,218 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:12:30,219 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:30,258 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:12:30,258 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:30,281 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:12:30,281 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:30,314 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:12:30,315 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,154 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:12:31,166 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,214 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:12:31,215 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,239 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:12:31,239 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,263 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:12:31,263 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,294 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:12:31,294 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:12:31,297 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:12:31,647 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:12:31,647 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:31,648 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:12:32,083 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:12:32,083 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:32,091 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:12:32,403 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:12:32,403 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:32,404 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:12:32,763 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:12:32,763 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:32,764 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:12:33,185 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:12:33,186 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:33,187 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:12:33,598 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:12:33,599 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:33,599 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:12:33,998 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:12:33,998 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:33,999 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:12:34,588 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:12:34,588 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:34,589 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:12:34,907 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:12:34,907 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:12:34,907 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:12:35,221 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:12:35,221 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:14,488 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:15:14,488 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:15:14,489 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:15:14,489 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:15:14,490 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:15:14,490 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:15:14,490 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:15:14,491 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:15:14,491 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:15:14,491 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:15:16,176 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:15:16,176 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:16,230 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:15:16,230 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:16,249 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:15:16,250 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:16,266 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:15:16,266 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:16,296 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:15:16,296 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,098 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:15:17,111 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,176 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:15:17,176 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,202 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:15:17,203 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,223 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:15:17,225 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,250 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:15:17,250 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:15:17,255 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:15:17,591 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:15:17,591 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:17,592 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:15:17,957 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:15:17,957 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:17,958 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:15:18,344 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:15:18,345 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:18,345 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:15:18,777 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:15:18,777 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:18,778 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:15:19,182 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:15:19,182 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:19,183 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:15:19,570 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:15:19,570 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:19,571 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:15:19,986 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:15:19,986 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:19,988 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:15:20,398 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:15:20,398 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:20,399 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:15:20,735 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:15:20,736 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:15:20,736 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:15:21,062 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:15:21,062 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:03,688 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:16:03,689 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:16:03,690 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:16:03,690 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:16:03,691 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:16:03,691 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:16:03,692 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:16:03,692 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:16:03,692 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:16:03,693 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:16:05,470 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:16:05,470 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,494 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:16:05,494 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,520 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:16:05,520 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,554 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:16:05,554 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,572 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:16:05,572 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,605 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:16:05,605 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,630 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:16:05,630 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,666 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:16:05,666 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,688 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:16:05,688 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,714 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:16:05,714 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:16:05,717 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:16:06,052 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:16:06,052 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:06,053 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:16:06,610 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:16:06,610 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:06,611 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:16:06,925 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:16:06,926 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:06,927 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:16:07,315 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:16:07,315 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:07,316 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:16:07,808 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:16:07,808 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:07,809 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:16:08,235 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:16:08,235 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:08,236 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:16:09,538 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:16:09,539 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:09,541 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:16:09,963 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:16:09,963 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:09,964 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:16:10,402 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:16:10,402 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:16:10,403 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:16:10,819 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:16:10,819 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:37,386 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:21:37,387 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:21:37,387 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:21:37,387 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:21:37,387 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:21:37,387 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:21:37,388 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:21:37,388 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:21:37,388 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:21:37,388 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:21:39,057 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:21:39,057 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:39,082 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:21:39,082 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:39,105 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:21:39,105 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:39,125 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:21:39,125 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:39,158 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:21:39,158 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,072 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:21:40,072 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,102 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:21:40,102 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,124 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:21:40,124 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,150 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:21:40,150 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,175 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:21:40,175 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_parallel.csv records=1000
+2026-07-05 15:21:40,184 | START request symbol=BTCUSDT interval=1h limit=1000
+2026-07-05 15:21:40,747 | END request symbol=BTCUSDT records=1000
+2026-07-05 15:21:40,748 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:40,749 | START request symbol=ETHUSDT interval=1h limit=1000
+2026-07-05 15:21:41,144 | END request symbol=ETHUSDT records=1000
+2026-07-05 15:21:41,144 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:41,145 | START request symbol=BNBUSDT interval=1h limit=1000
+2026-07-05 15:21:41,555 | END request symbol=BNBUSDT records=1000
+2026-07-05 15:21:41,555 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:41,556 | START request symbol=SOLUSDT interval=1h limit=1000
+2026-07-05 15:21:41,966 | END request symbol=SOLUSDT records=1000
+2026-07-05 15:21:41,966 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:41,967 | START request symbol=XRPUSDT interval=1h limit=1000
+2026-07-05 15:21:42,389 | END request symbol=XRPUSDT records=1000
+2026-07-05 15:21:42,389 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:42,390 | START request symbol=ADAUSDT interval=1h limit=1000
+2026-07-05 15:21:42,809 | END request symbol=ADAUSDT records=1000
+2026-07-05 15:21:42,809 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:42,810 | START request symbol=DOGEUSDT interval=1h limit=1000
+2026-07-05 15:21:43,227 | END request symbol=DOGEUSDT records=1000
+2026-07-05 15:21:43,227 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:43,228 | START request symbol=AVAXUSDT interval=1h limit=1000
+2026-07-05 15:21:43,634 | END request symbol=AVAXUSDT records=1000
+2026-07-05 15:21:43,634 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:43,635 | START request symbol=LINKUSDT interval=1h limit=1000
+2026-07-05 15:21:44,037 | END request symbol=LINKUSDT records=1000
+2026-07-05 15:21:44,037 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
+2026-07-05 15:21:44,038 | START request symbol=DOTUSDT interval=1h limit=1000
+2026-07-05 15:21:44,430 | END request symbol=DOTUSDT records=1000
+2026-07-05 15:21:44,431 | WROTE csv=/Users/Gabi/Desktop/code-monkey/owl-analytics/owl-analytics-final-project/data/clean/clean_market_data_serial.csv records=1000
