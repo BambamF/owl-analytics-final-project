@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import re
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 messy_data_csv = os.path.join(ROOT_DIR, 'data/messy/messy_market_data.csv')
@@ -41,11 +42,44 @@ def convert_numerics(df: pd.DataFrame):
     print()
     return df
 
+def convert_timestamps(df: pd.DataFrame):
+
+    time_columns = ["open_time", "close_time"]
+
+    for t in time_columns:
+        df[t] = pd.to_datetime(df[t], errors='coerce')
+        print(f"Invalid {t} values: {df[t].isna().sum()}")
+    print()
+
+    symbol_df = df['symbol'].unique()
+
+    df['symbol'] = (
+    df['symbol']
+    .str.upper()
+    .str.replace(" ", "", regex=False)
+    .str.replace("/", "", regex=False)
+    )
+
+    cleaned_symbol_df = df['symbol'].unique()
+
+    print(f"Symbol before cleaning: {symbol_df}")
+    print()
+    print(f"Symbol after cleaning: {cleaned_symbol_df}")
+    print()
+    print(f"Unique cleaned symbols: {df['symbol'].nunique()}")
+    print()
+    return df
+
+def remove_duplicates(df: pd.DataFrame):
+    new_df = df.drop_duplicates()
+    print(f"")
+
 def main():
     df = load_csv()
     print_df_details(df)
     print_missing_details(df)
-    convert_numerics(df)
+    new_df = convert_numerics(df)
+    convert_timestamps(new_df)
 
 
 
